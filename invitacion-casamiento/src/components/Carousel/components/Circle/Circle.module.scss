@@ -1,0 +1,23 @@
+.circle{
+  padding:2px;
+  margin:20px;
+  position:'absolute';
+  border-radius:50%;
+  left:0;
+  top:0;
+  background-color:transparent;
+  border:1px solid white;   
+  width:8px;
+  height:8px;
+  cursor: pointer;
+}
+
+.active{
+  background-color: white;
+  padding:2px;
+  margin:20px;
+  position:'absolute';
+  border-radius: 50%;
+  left:0;
+  top:0;
+}

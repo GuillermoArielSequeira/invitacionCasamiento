@@ -1,0 +1,110 @@
+
+.carouselContainer{
+  & > div {
+    & > div {
+      & > div {
+        margin: 0;
+      }
+      & button {
+        position: absolute;
+        z-index: 1;
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 50%;
+        background:transparent;
+        outline: none;
+
+        &:before {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          margin-left: -10px;
+          margin-top: -10px;
+          border: 5px solid white;
+          border-bottom: none;
+          border-right: none;
+          transform: translateX(5px) rotate(-45deg);
+        }
+      
+      } 
+      & .prev{
+        top: 50%;
+        left:10px;
+        &.disabled {
+          &:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            margin-left: -10px;
+            margin-top: -10px;
+            border: 5px solid rgba(255,255,255,0.4);;
+            border-bottom: none;
+            border-right: none;
+            transform: translateX(5px) rotate(-45deg);
+          }
+        }
+      }
+      & .next {
+        top: 50%;
+        right:10px;
+        &.disabled {
+          &:before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            margin-left: -10px;
+            margin-top: -10px;
+            border: 5px solid rgba(255,255,255,0.4);;
+            border-bottom: none;
+            border-right: none;
+            transform: translateX(-5px) rotate(135deg);
+          }
+        }
+        &::before{
+          transform: translateX(-5px) rotate(135deg);
+        }
+      }
+    }
+  }
+  .carouselDots{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    & div {
+      margin-left:5px;
+    }
+  }
+
+  .containerItem {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://festejemosjuntos.com/wp-content/uploads/2019/04/Pareja-Beso-e1556109243952.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  
+  .gradientOverlay{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    background-color:  rgb(51, 51, 51);
+    opacity: 0.5;
+  }
+  
+  .containerItem2 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://festejemosjuntos.com/wp-content/uploads/2019/04/Manos-anillo-e1556109252338.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+}

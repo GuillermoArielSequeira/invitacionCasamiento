@@ -1,0 +1,17 @@
+.containerFeature{
+  text-align: center;
+  width: 200px;
+  justify-self: center;
+  .title{
+    margin:50px 0 10px;
+    font-family: 'Amatic SC';
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .description{
+    font-size: 10px;
+    line-height: 1.6em;
+    color: #666;
+  }
+}

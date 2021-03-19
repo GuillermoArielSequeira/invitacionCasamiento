@@ -18,7 +18,6 @@ const CarouselComponent = () => {
         renderPagination={Dots}
         itemsToScroll={1}
         itemsToShow={1}
-        infinite
       >
         <div className={styles.containerItem}>
           <div className={styles.gradientOverlay} />

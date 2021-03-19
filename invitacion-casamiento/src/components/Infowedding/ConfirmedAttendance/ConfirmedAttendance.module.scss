@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation-name: closeModal;
+  animation-duration: 0.5s;
 
   .title{
     margin:50px 0 20px;
@@ -12,6 +14,7 @@
 
   .description{
     text-align: center;
+    padding: 0 10px;
     font-size: 25px;
     line-height: 1.375em;
     margin-bottom: 20px;
@@ -41,5 +44,52 @@
     line-height: 1.375em;
     font-family: Sacramento;
     font-weight: 400;
+  }
+  
+}
+
+.modal{
+  position: absolute;
+  height: fit-content;
+  right: 200px;
+  bottom: 200px;
+  background-color: white;
+  z-index: 3;
+  outline: none;
+  border-radius:.5em;
+  min-width: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h2 {
+    padding: 0 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  a {
+    margin-bottom: 15px;
+  }
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(13, 13, 13, 0.33);
+  z-index: 3;
+  outline: none;
+  animation-name: openModal;
+  animation-duration: 0.5s;
+}
+
+@keyframes openModal {
+  from {
+    transform: translatey(0);
+    opacity: 0;
+  } to {
+    transform: none;
+    opacity: 1;
   }
 }

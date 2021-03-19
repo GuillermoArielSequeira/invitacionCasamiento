@@ -1,0 +1,25 @@
+.containerInfo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  & .names {
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.375em;
+    color: #fff;
+    margin: .1em 0;
+    font-family: Sacramento;
+    font-weight: 400;
+  }
+  & .date {
+    text-align: center;
+    
+    line-height: 1.375em;
+    color: #fff;
+    margin: .1em 0;
+    
+    font-weight: 400;
+  }
+}

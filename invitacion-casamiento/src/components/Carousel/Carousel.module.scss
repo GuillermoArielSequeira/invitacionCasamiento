@@ -1,5 +1,4 @@
-
-.carouselContainer{
+.carouselContainer {
   position: relative;
   & > div {
     & > div {
@@ -8,39 +7,74 @@
       }
     }
   }
-  .carouselDots{
+  .carouselDots {
     display: flex;
     position: absolute;
     bottom: 20px;
     right: 20px;
     & div {
-      margin-left:5px;
+      margin-left: 5px;
     }
   }
 
   .containerItem {
     height: 100vh;
     width: 100vw;
-    background-image: url('https://festejemosjuntos.com/wp-content/uploads/2019/04/Pareja-Beso-e1556109243952.jpg');
+    background-image: url("../../assets/foto1.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
   }
-  
-  .gradientOverlay{
+
+  .gradientOverlay {
     position: absolute;
     height: 100vh;
     width: 100vw;
     top: 0px;
     right: 0px;
-    background-color:  rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
     opacity: 0.5;
   }
-  
+
   .containerItem2 {
     height: 100vh;
     width: 100vw;
-    background-image: url("https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://festejemosjuntos.com/wp-content/uploads/2019/04/Manos-anillo-e1556109252338.jpg");
+    background-image: url("../../assets/foto2.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  .containerItem3 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/foto3.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  .containerItem4 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/foto4.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+  }
+  .containerItem5 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/foto5.jpg");
+    background-size: cover;
+    background-position: top bottom;
+    position: relative;
+    @media (max-width: 800px) {
+      background-position: center center;
+    }
+  }
+  .containerItem6 {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/foto6.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;

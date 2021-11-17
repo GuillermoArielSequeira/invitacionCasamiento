@@ -1,17 +1,27 @@
-.containerFeature{
+.containerFeature {
   text-align: center;
   width: 200px;
   justify-self: center;
-  .title{
-    margin:50px 0 10px;
-    font-family: 'Amatic SC';
+  margin: 20px 0;
+  .title {
+    margin: 50px 0 10px;
+    font-family: "Amatic SC";
     font-weight: 700;
     font-size: 20px;
   }
 
-  .description{
+  .description {
     font-size: 10px;
     line-height: 1.6em;
     color: #666;
+  }
+  .containerIcon {
+    height: 40%;
+    width: 40%;
+    background-color: #83c4a8;
+    border-radius: 60%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
   }
 }

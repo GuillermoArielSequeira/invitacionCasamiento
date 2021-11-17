@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
-import Carousel from 'react-elastic-carousel';
-import Arrow from './components/Arrow';
-import styles from './Carousel.module.scss';
-import Dots from './components/Dots';
-import Info from './components/Info';
+import React, { useRef } from "react";
+import Carousel from "react-elastic-carousel";
+import Arrow from "./components/Arrow";
+import styles from "./Carousel.module.scss";
+import Dots from "./components/Dots";
+import Info from "./components/Info";
 /* eslint-disable no-debugger */
 
 const CarouselComponent = () => {
@@ -25,15 +25,21 @@ const CarouselComponent = () => {
         <div className={styles.containerItem2}>
           <div className={styles.gradientOverlay} />
         </div>
-        <div className={styles.containerItem}>
+        <div className={styles.containerItem3}>
           <div className={styles.gradientOverlay} />
         </div>
-        <div className={styles.containerItem2}>
+        <div className={styles.containerItem4}>
+          <div className={styles.gradientOverlay} />
+        </div>
+        <div className={styles.containerItem5}>
+          <div className={styles.gradientOverlay} />
+        </div>
+        <div className={styles.containerItem6}>
           <div className={styles.gradientOverlay} />
         </div>
       </Carousel>
     </div>
-  )
-}
+  );
+};
 
 export default CarouselComponent;

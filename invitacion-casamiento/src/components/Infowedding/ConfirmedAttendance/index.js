@@ -40,10 +40,10 @@ const ConfirmedAttendance = () => {
       </Modal>
       <h2 className={styles.title}>TE ESPERAMOS</h2>
       <span className={styles.description}>
-        Para que formes parte de esta gran celebracion ¡Confirmanos tu
-        asistencia!
+        Para que formes parte de esta gran celebración ¡Confirmanos tu
+        presencia!
       </span>
-      <Button text="CONFIRMAR ASISTENCIA" onClick={openModal} />
+      <Button text="CONFIRMAR PRESENCIA" onClick={openModal} />
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

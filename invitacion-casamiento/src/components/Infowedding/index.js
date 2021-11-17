@@ -5,9 +5,9 @@ import CountDown from "./Countdown";
 
 const InfoWedding = () => (
   <div id="info-weding">
+    <CountDown />
     <FaturesWedding />
     <ConfirmedAttendance />
-    <CountDown />
   </div>
 );
 

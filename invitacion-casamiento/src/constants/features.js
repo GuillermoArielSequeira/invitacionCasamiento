@@ -10,7 +10,7 @@ export const features = [
   {
     title: "Fiesta",
     description:
-      "Después a las 21:30 hs te esperamos, para festejan juntos en Consejal Sequeira 3350",
+      "Después a las 21:30 hs te esperamos, para festejar juntos en Concejal Sequeira 3350",
     text_button: "Como llegar",
     icon: "glasses",
     href: "https://goo.gl/maps/Vz36K2s6eciiYLvM7",

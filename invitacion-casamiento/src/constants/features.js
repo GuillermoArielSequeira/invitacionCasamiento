@@ -17,8 +17,7 @@ export const features = [
   },
   {
     title: "Dress Code",
-    description:
-      "El tipo de vestimenta sugerida para la ocasión es: **Formal.**",
+    description: "El tipo de vestimenta para la ocasión es: **Formal.**",
     icon: "costume",
   },
 ];
